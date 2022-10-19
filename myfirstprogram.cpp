@@ -66,8 +66,14 @@ int main()
     Reserved words (like C++ keywords, such as int) cannot be used as names
     */
 
-   const int myConstantNum = 15; // myConstantNum will always be 15
-   // myConstantNum = 10 // error: assignment of read-only variable 'myConstantNum'
+    const int myConstantNum = 15; // myConstantNum will always be 15
+                                  // myConstantNum = 10 // error: assignment of read-only variable 'myConstantNum'
+
+    /*
+    You should always declare the variable as constant when you have values that are unlikely to change:
+    */
+    const int minutesPerHour = 60;
+    const float PI = 3.14;
 
     return 0;
 }
