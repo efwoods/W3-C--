@@ -39,5 +39,17 @@ int main()
         << groundTruth
         << std::endl;
     std::cout << "I am learning C++\n";
+
+    // Add variables together
+    int x = 5;
+    int y = 6;
+    int sum = x + y;
+    cout << sum;
+    cout << endl;
+
+    // Declare multiple variables
+    int a = 5, b = 6, z = 50;
+    cout << x + y + z << endl;
+
     return 0;
 }
