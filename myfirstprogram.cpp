@@ -7,6 +7,13 @@ multi-line comment!
 
 int main()
 {
+    int number = 4;
+    double floating_point = 13.37;
+    char character = 'a';
+    std::string text = "Hello World String!!!";
+    bool groundTruth = true;
+    
+
     // This is a comment
     std::cout
         << "Hello World!"
