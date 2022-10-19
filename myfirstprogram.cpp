@@ -1,5 +1,10 @@
 #include <iostream>
 
+/* 
+This is a 
+multi-line comment!
+*/
+
 int main()
 {
     // This is a comment
