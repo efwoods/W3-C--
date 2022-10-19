@@ -49,7 +49,12 @@ int main()
 
     // Declare multiple variables
     int a = 5, b = 6, z = 50;
-    cout << x + y + z << endl;
+    cout << a + b + z << endl;
+
+    // One value to multiple values
+    int e,f,g;
+    e = f = g = 50;
+    cout << e + f + g << endl;
 
     return 0;
 }
