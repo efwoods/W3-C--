@@ -66,5 +66,8 @@ int main()
     Reserved words (like C++ keywords, such as int) cannot be used as names
     */
 
+   const int myConstantNum = 15; // myConstantNum will always be 15
+   // myConstantNum = 10 // error: assignment of read-only variable 'myConstantNum'
+
     return 0;
 }
